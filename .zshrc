@@ -158,11 +158,10 @@ alias p='pwd'
 alias chrome="/usr/bin/open -a \"/Applications/Google Chrome.app\""
 alias gcal="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://calendar.google.com/calendar/u/0/r/week'"
 alias gmail="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://mail.google.com/mail/u/0/#inbox'"
-alias youtube="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://youtube.com'
+alias youtube="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://youtube.com'"
 
 # Snowflake env vars
 # export SNOWFLAKE_PRIVATE_KEY_PATH="~/.ssh/snowflake-terraform/snowflake_key"
 export SNOWFLAKE_PRIVATE_KEY_PATH="~/.ssh/snowsql/rsa_key.p8"
 export SNOWSQL_PRIVATE_KEY_PASSPHRASE=
 export TF_PLUGIN_CACHE_DIR=/Users/adam.q/.terraform.d/plugin-cache
-

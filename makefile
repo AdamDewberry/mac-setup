@@ -13,6 +13,7 @@ setup_mac_preferences:
 	mkdir ~/Documents/screenshots || echo "dir screenshots exists"
 	defaults write com.apple.screencapture location ~/Documents/screenshots
 	defaults write com.apple.Finder AppleShowAllFiles true
+	defaults write -g com.apple.swipescrolldirection -bool false  
 brew_install_essentials:
 	brew install z
 	brew install git
@@ -29,8 +30,8 @@ shortOrgName  := $(shell cat ~/temp_setup/shortOrgName.txt)
 ssh_gpg_keys:
 	echo shortOrgName: ${shortOrgName}
 	gpg --full-generate-key # RSA 1, 4096, 0, name, shortOrgName GitHub GPG key, O <- capital o
-	echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
-	killall gpg-agentq
+	echo "pinentry-program $(which pinentry-mac)" > ~/.gnupg/gpg-agent.conf
+	killall gpg-agent
 	echo "test" | gpg --clearsign 
 	ssh-keygen -t ed25519 -C "${USER}@${orgNamet}.com"
 	ssh-add -K ~/.ssh/id_ed25519
