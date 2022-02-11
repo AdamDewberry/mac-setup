@@ -164,4 +164,4 @@ alias youtube="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://you
 # export SNOWFLAKE_PRIVATE_KEY_PATH="~/.ssh/snowflake-terraform/snowflake_key"
 export SNOWFLAKE_PRIVATE_KEY_PATH="~/.ssh/snowsql/rsa_key.p8"
 export SNOWSQL_PRIVATE_KEY_PASSPHRASE=
-export TF_PLUGIN_CACHE_DIR=/Users/adam.q/.terraform.d/plugin-cache
+export TF_PLUGIN_CACHE_DIR=$HOME/.terraform.d/plugin-cache
