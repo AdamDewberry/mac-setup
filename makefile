@@ -28,9 +28,9 @@ orgName := $(shell cat ~/temp_setup/orgName.txt)
 shortOrgName  := $(shell cat ~/temp_setup/shortOrgName.txt)
 ssh_gpg_keys:
 	echo shortOrgName: ${shortOrgName}
-	gpg --full-generate-key # 1, 4096, 0, shortOrgName GitHub GPG key, O <- capital o
+	gpg --full-generate-key # RSA 1, 4096, 0, name, shortOrgName GitHub GPG key, O <- capital o
 	echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
-	killall gpg-agent
+	killall gpg-agentq
 	echo "test" | gpg --clearsign 
 	ssh-keygen -t ed25519 -C "${USER}@${orgNamet}.com"
 	ssh-add -K ~/.ssh/id_ed25519

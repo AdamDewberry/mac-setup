@@ -10,8 +10,22 @@ The setup includes writing (or overwriting) the zsh profile found in `~/.zshrc`;
 
 To run:
 
-```
+```bash
 ./make -i
 ```
 
 The flag `-i` will skip on error and continue.
+
+For signing commits, you will need to add the ID of the GPG key generated: this will be on the _pub_ line from:
+
+```bash
+gpg --list-keys
+```
+
+to configure that key:
+
+```bash
+git config --global user.signingkey <your-key>
+```
+
+You may need to log into the GitHub CLI again to configure that key against your GitHub account; alternatively do it in the console.
