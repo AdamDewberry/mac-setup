@@ -30,7 +30,7 @@ orgName := $(shell cat ~/temp_setup/orgName.txt)
 shortOrgName  := $(shell cat ~/temp_setup/shortOrgName.txt)
 ssh_gpg_keys:
 	echo shortOrgName: ${shortOrgName}
-	gpg --full-generate-key # RSA 1, 4096, 0, name, shortOrgName GitHub GPG key, O <- capital o
+	gpg --full-generate-key # RSA 1, 4096, 0, name, email, shortOrgName GitHub GPG key, O <- capital o
 	echo "pinentry-program $(which pinentry-mac)" > ~/.gnupg/gpg-agent.conf
 	killall gpg-agent
 	echo "test" | gpg --clearsign 
@@ -47,7 +47,7 @@ zsh:
 	curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 	git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/.zshrc" > ~/.zshrc
+	cp ./.zshrc > ~/.zshrc
 brew_install_collaboration:
 	brew install --cask rectangle
 
