@@ -43,6 +43,7 @@ git_config:
 	git config --global gpg.program gpg
 	git config --global commit.gpgSign true
 	gh auth login
+	gh gpg-key add ${$HOME}/.gnupg/pubring.kbx
 zsh:	
 	curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
