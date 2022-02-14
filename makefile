@@ -21,6 +21,7 @@ brew_install_essentials:
 	brew install gpg
 	brew upgrade gnupg 
 	brew install pinentry-mac
+	brew install jq
 set_vars:
 	system_profiler -json > ~/temp_setup/sys_profiler.json
 	cat ~/temp_setup/sys_profiler.json | jq ".SPConfigurationProfileDataType[]._items[0].spconfigprofile_organization" | sed 's/ //g' | awk '{print tolower($0)}' | tr -d '"' > ~/temp_setup/orgName.txt
@@ -50,9 +51,9 @@ zsh:
 brew_install_collaboration:
 	brew install --cask rectangle
 
-	brew install --cask caffeine
-
 	brew install --cask homebrew/cask-drivers/logitech-options
+
+	brew install --cask caffeine
 
 	brew install --cask slack
 
@@ -65,8 +66,6 @@ brew_install_tools:
 	brew install --cask visual-studio-code
 
 	brew install tree
-	
-	brew install jq
 
 	brew install the_silver_searcher
 
@@ -93,8 +92,6 @@ brew_install_tools:
 	brew install --cask snowflake-snowsql
 
 	brew install --cask cyberduck
-
-	brew install --cask atom
 
 	brew install --cask keybase
 brew_install_media:
