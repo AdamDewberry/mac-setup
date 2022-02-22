@@ -84,6 +84,12 @@ brew_install_tools:
 
 	brew install go
 
+	brew install golangci/tap/golangci-lint
+
+	go install -v github.com/ramya-rao-a/go-outline@latest
+
+	go get golang.org/x/tools/cmd/godoc
+
 	brew install kafka
 
 	brew install --cask beekeeper-studio
@@ -95,6 +101,8 @@ brew_install_tools:
 	brew install --cask cyberduck
 
 	brew install --cask keybase
+
+	brew install --cask 1password-cli
 brew_install_media:
 	brew install --cask spotify
 
