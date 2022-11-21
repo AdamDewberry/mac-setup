@@ -66,13 +66,11 @@ brew_install_collaboration:
 brew_install_tools:	
 	brew install --cask visual-studio-code
 
+	brew install oath-toolkit
+
 	brew install tree
 
-	brew install the_silver_searcher
-
-	brew install docker
-
-	brew install python@3.9
+	brew install python@3.10
 
 	brew install poetry
 
@@ -80,7 +78,13 @@ brew_install_tools:
 
 	python3 -m pip install --user --upgrade pip
 
+	brew install the_silver_searcher
+
+	brew install --cask docker
+
 	brew install warrensbox/tap/tfswitch
+
+	brew install terraform-docs
 
 	brew install go
 
@@ -103,6 +107,12 @@ brew_install_tools:
 	brew install --cask keybase
 
 	brew install --cask 1password-cli
+	
+	brew install csvkit
+
+	brew install ruby  
+
+	brew install node
 brew_install_media:
 	brew install --cask spotify
 
@@ -115,5 +125,7 @@ brew_install_media:
 	brew install --cask vlc
 
 	brew install --cask viber
+
+	brew install pandoc
 remove_temp_dir:
 	rm -rf mkdir ~/temp_setup

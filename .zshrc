@@ -107,7 +107,7 @@ export LANG=en_GB.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #Setting Python
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+export PATH="/usr/local/opt/python@3.10/bin:$PATH"
 export PYTHONPATH=$PYTHONPATH:.
 
 # Update Go Path
@@ -116,6 +116,9 @@ export PATH=$PATH:$GOPATH/bin
 
 # added by Snowflake SnowSQL installer
 export PATH=/Applications/SnowSQL.app/Contents/MacOS:$PATH
+
+# add ssofresh to path
+export PATH="~/Documents/aws-sso-refresh:$PATH"
 
 # tabtab source for packages
 # uninstall by removing these lines
@@ -132,13 +135,14 @@ alias grb='branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD) && def
 alias gcm='default_branch=$(git remote show origin | grep "HEAD" | tr -s " " | cut -d " " -f 4) && git checkout $default_branch'
 
 # terraform
+export TF_PLUGIN_CACHE_DIR="$HOME/.terraform.d/plugin-cache"
 alias tf='/usr/local/bin/terraform'
 alias tfi='/usr/local/bin/terraform init'
 alias tfp='/usr/local/bin/terraform plan'
 alias tfpo='/usr/local/bin/terraform plan -out'
 alias tfa='/usr/local/bin/terraform apply'
 alias tfd='/usr/local/bin/terraform destroy'
-alias tfrm='rm -rfv ./.terraform/'
+alias tfrm='rm -rfv ./.terraform/ ./.terraform.lock.hcl' 
 alias tfv='/usr/local/bin/terraform -v'
 alias tfwl='/usr/local/bin/terraform workspace list'
 alias tfws='/usr/local/bin/terraform workspace select'
@@ -159,6 +163,13 @@ alias chrome="/usr/bin/open -a \"/Applications/Google Chrome.app\""
 alias gcal="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://calendar.google.com/calendar/u/0/r/week'"
 alias gmail="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://mail.google.com/mail/u/0/#inbox'"
 alias youtube="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://youtube.com'"
+
+# Ruby
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.2
 
 # Snowflake env vars
 # export SNOWFLAKE_PRIVATE_KEY_PATH="~/.ssh/snowflake-terraform/snowflake_key"
