@@ -13,7 +13,13 @@ setup_mac_preferences:
 	mkdir ~/Documents/screenshots || echo "dir screenshots exists"
 	defaults write com.apple.screencapture location ~/Documents/screenshots
 	defaults write com.apple.Finder AppleShowAllFiles true
-	defaults write -g com.apple.swipescrolldirection -bool false  
+	defaults write -g com.apple.swipescrolldirection -bool false
+	defaults write com.apple.dock static-only -bool TRUE
+	defaults write com.apple.dock show-recents -bool no
+	defaults write com.apple.dock recent-apps -array
+	defaults write com.apple.Dock autohide-delay -float 0
+	defaults write com.apple.finder QuitMenuItem -bool true
+	killall Dock 
 brew_install_essentials:
 	brew install z
 	brew install git
