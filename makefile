@@ -2,7 +2,7 @@ all: temp_dirs remap_keys setup_brew setup_mac_preferences brew_install_essentia
 temp_dirs:
 	mkdir ~/temp_setup || echo "dir temp_setup exists"
 remap_keys:
-	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/remap-caps-lock-to-control.xml" > ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
+	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/remap-keys.xml" > ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
 	launchctl load ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
 setup_brew:
 	curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > ~/temp_setup/Homebrew_install.sh
@@ -50,6 +50,14 @@ zsh:
 	git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 	cp ./.zshrc > ~/.zshrc
 brew_install_collaboration:
+	curl -fsSL https://github.com/dexterleng/KeyboardScroller.docs/releases/download/v1.0.1/Keyboard-Scroller-1.0.1.zip > ~/temp_setup/Keyboard-Scroller.zip
+	open ~/temp_setup/Keyboard-Scroller.zip && mv ~/temp_setup/Keyboard\ Scroller.app /Applications/Keyboard\ Scroller.app  && open /Applications/Keyboard\ Scroller.app
+
+	curl -fsSl https://appcenter-filemanagement-distrib5ede6f06e.azureedge.net/f02d07f6-f27e-4b8d-8c40-a13f6e9f9940/Homerow-0.11.zip\?sv\=2019-02-02\&sr\=c\&sig\=E6dCRDBcZE7qAwoYQbhhU6Y0bCONtszcKoNJ0z9oiuQ%3D\&se\=2022-12-13T13%3A59%3A25Z\&sp\=r\&download_origin\=appcenter > ~/temp_setup/Homerow-0.11.zip
+	open ~/temp_setup/Homerow-0.11.zip && mv ~/temp_setup/Homerow.app /Applications/Homerow.app && open /Applications/Homerow.app
+	
+	brew install --cask google-chrome
+	
 	brew install --cask rectangle
 
 	brew install --cask homebrew/cask-drivers/logitech-options
@@ -127,5 +135,6 @@ brew_install_media:
 	brew install --cask viber
 
 	brew install pandoc
+
 remove_temp_dir:
 	rm -rf mkdir ~/temp_setup

@@ -15,6 +15,10 @@
         {
             "HIDKeyboardModifierMappingSrc":0x700000039,
             "HIDKeyboardModifierMappingDst":0x7000000E0
+        },
+        {
+            "HIDKeyboardModifierMappingSrc":0x700000064,
+            "HIDKeyboardModifierMappingDst":0x700000044
         }
 ]
         }</string>
