@@ -63,7 +63,7 @@ zsh:
 	curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 	git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-	cp ./.zshrc > ~/.zshrc
+	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/.zshrc" > ~/.zshrc
 brew_install_collaboration:
 	curl -fsSL https://github.com/dexterleng/KeyboardScroller.docs/releases/download/v1.0.1/Keyboard-Scroller-1.0.1.zip > ~/temp_setup/Keyboard-Scroller.zip
 	open ~/temp_setup/Keyboard-Scroller.zip && mv ~/temp_setup/Keyboard\ Scroller.app /Applications/Keyboard\ Scroller.app  && open /Applications/Keyboard\ Scroller.app
