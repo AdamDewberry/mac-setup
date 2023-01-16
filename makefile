@@ -2,6 +2,7 @@ all: temp_dirs remap_keys setup_brew setup_mac_preferences brew_install_essentia
 temp_dirs:
 	mkdir ~/temp_setup || echo "dir temp_setup exists"
 remap_keys:
+	mkdir ${$HOME}/Library/LaunchAgents/
 	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/remap-keys.xml" > ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
 	chmod 700 ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
 	sudo launchctl bootstrap gui/501 ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
