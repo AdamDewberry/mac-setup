@@ -30,7 +30,7 @@ Set the pointer control actions here:
 
 For reference, [here](https://developer.apple.com/library/archive/technotes/tn2450/_index.html#//apple_ref/doc/uid/DTS40017618-CH1-KEY_TABLE_USAGES) are the keyboard remapping IDs and this [utility](https://hidutil-generator.netlify.app/) is great at writing the remappings for you.
 
-## zsh
+## zsh 
 The setup includes writing (or overwriting) the zsh profile found in `~/.zshrc`; this will configure your shell, add a bunch of useful path env vars and aliases. This is optional, remove the line in the makefile if you wish to start afresh.
 
 ## Run Mac Setup
