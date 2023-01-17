@@ -56,6 +56,15 @@ to configure that key:
 git config --global user.signingkey <your-key>
 ```
 
+If you're having issues with signing commits, try:
+
+```bash
+git config --global gpg.program gpg
+git config --global commit.gpgSign true
+```
+
+Then run your commit again.
+
 You may need to log into the GitHub CLI again to configure that key against your GitHub account; alternatively do it in the console.
 
 ## To do
