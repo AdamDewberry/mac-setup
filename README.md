@@ -38,7 +38,7 @@ To run, navigate to your home directory:
 
 ```bash
 cd ~
-./make -i
+./make -i email_address=[your-email]
 ```
 
 The flag `-i` will skip on error and continue.
@@ -58,4 +58,11 @@ git config --global user.signingkey <your-key>
 
 You may need to log into the GitHub CLI again to configure that key against your GitHub account; alternatively do it in the console.
 
+## To do
+- [ ] Change resolution
+- [ ] Add HOME directory to finder favourites
+- [ ] Export app preferences as .plist files and write them to ~/Library/Preferences/
 
+## Notes 
+[Editing plists](https://georgegarside.com/blog/macos/finder-sidebar-preferences-location/)
+[Sidebar plist](https://georgegarside.com/blog/macos/finder-sidebar-preferences-location/)

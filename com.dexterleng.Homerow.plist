@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSStatusItem Visible Item-0</key>
+	<true/>
+	<key>SEGBuildKeyV2</key>
+	<string>15</string>
+	<key>SEGVersionKey</key>
+	<string>0.15</string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
+	<key>SULastCheckTime</key>
+	<date>2023-01-17T12:46:28Z</date>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>189831793</integer>
+	<key>is-experimental-support-enabled</key>
+	<true/>
+	<key>launch-at-login</key>
+	<true/>
+	<key>show-menubar-icon</key>
+	<true/>
+</dict>
+</plist>

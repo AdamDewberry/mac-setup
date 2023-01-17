@@ -164,12 +164,12 @@ alias gcal="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://calend
 alias gmail="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://mail.google.com/mail/u/0/#inbox'"
 alias youtube="/usr/bin/open -a \"/Applications/Google Chrome.app\" 'https://youtube.com'"
 
-# Ruby
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.2
+# Ruby - uncomment these if you intend to use Ruby
+# export GEM_HOME="$HOME/gems"
+# export PATH="$HOME/gems/bin:$PATH"
+# source /usr/local/opt/chruby/share/chruby/chruby.sh
+# source /usr/local/opt/chruby/share/chruby/auto.sh
+# chruby ruby-3.1.2
 
 # Snowflake env vars
 # export SNOWFLAKE_PRIVATE_KEY_PATH="~/.ssh/snowflake-terraform/snowflake_key"
