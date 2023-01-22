@@ -73,6 +73,24 @@ Then run your commit again.
 
 You may need to log into the GitHub CLI again to configure that key against your GitHub account; alternatively do it in the console.
 
+## Default Paramets [wip]
+
+Individual application preferences can be found in `~/Library/Preferences/` as `.plist` files.
+
+These binaries can be converted to xml to be human readable, update individual values and convered back to binaries for Mac OS to read. 
+
+To convert a plist file to xml, use plutil:
+
+```bash
+plutil -convert xml1 /path/com.apple.controlcenter.plist     
+```
+
+and back to binary format:
+
+```bash
+plutil -convert binary1 /path/com.apple.controlcenter.plist
+```
+
 ## To do
 
 - [ ] Change resolution
