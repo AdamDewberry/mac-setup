@@ -63,6 +63,7 @@ ssh_gpg_keys:
 	gpg --full-generate-key # RSA 1, 4096, 0, name, email, shortOrgName GitHub GPG key, O <- capital o
 	echo "pinentry-program $(which pinentry-mac)" > ~/.gnupg/gpg-agent.conf
 	killall gpg-agent
+	pkill -9 gpg-agent
 	echo "test" | gpg --clearsign 
 	ssh-keygen -t ed25519 -C "${email_address}"
 	ssh-add -K ~/.ssh/id_ed25519

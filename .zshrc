@@ -1,12 +1,15 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+#M1
+eval $(/opt/homebrew/bin/brew shellenv)
+export PATH=$PATH:/opt/homebrew/bin 
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/$USER/.oh-my-zsh"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
-
 . `brew --prefix`/etc/profile.d/z.sh
 
 # Set name of the theme to load --- if set to "random", it will
