@@ -41,15 +41,15 @@ setup_brew:
 	/bin/bash -c ~/temp_setup/Homebrew_install.sh
 	sudo chown -R ${USER} /usr/local/*
 brew_install_essentials:
-	brew install --cask google-chrome && open /Applications/Google\ Chrome.app &
-	brew install --cask spotify && open /Applications/Spotify.app &
-	brew install z &
-	brew install git &
-	brew install gh &
-	brew install gpg &
-	brew upgrade gnupg & 
-	brew install pinentry-mac &
-	brew install jq &
+	brew install --cask google-chrome && open /Applications/Google\ Chrome.app
+	brew install --cask spotify && open /Applications/Spotify.app
+	brew install z
+	brew install git
+	brew install gh
+	brew install gpg
+	brew upgrade gnupg
+	brew install pinentry-mac
+	brew install jq
 set_vars:
 	system_profiler -json > ~/temp_setup/sys_profiler.json
 	cat ~/temp_setup/sys_profiler.json | jq ".SPConfigurationProfileDataType[]._items[0].spconfigprofile_organization" | sed 's/ //g' | awk '{print tolower($0)}' | tr -d '"' > ~/temp_setup/orgName.txt
@@ -81,87 +81,87 @@ zsh:
 	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/.zshrc" > ~/.zshrc
 brew_install_collaboration:
 
-	brew install --cask rectangle && open /Applications/Rectangle.app &
+	brew install --cask rectangle && open /Applications/Rectangle.app
 
-	brew install --cask whatsapp && open /Applications/WhatsApp.app &
+	brew install --cask whatsapp && open /Applications/WhatsApp.app
 
 	brew install --cask homebrew/cask-drivers/logitech-options && open /Applications/Logi\ Options.app
 
-	brew install --cask slack && open /Applications/Slack.app &
+	brew install --cask slack && open /Applications/Slack.app
 
-	brew install --cask caffeine &
+	brew install --cask caffeine
 
-	brew install --cask microsoft-teams &   
+	brew install --cask microsoft-teams
 
-	brew install --cask zoom &
+	brew install --cask zoom
 brew_install_tools:	
 	brew install --cask visual-studio-code && open /Applications/Visual\ Studio\ Code.app
 
-	brew install oath-toolkit &
+	brew install oath-toolkit
 
-	brew install tree &
+	brew install tree
 
-	brew install python@3.10 &
+	brew install python@3.10
 
-	brew install poetry &
+	brew install poetry
 
-	python3 -m pip install --user --upgrade setuptools &
+	python3 -m pip install --user --upgrade setuptools
 
-	python3 -m pip install --user --upgrade pip &
+	python3 -m pip install --user --upgrade pip
 
-	brew install the_silver_searcher &
+	brew install the_silver_searcher
 
-	brew install --cask docker &
+	brew install --cask docker
 
-	brew install warrensbox/tap/tfswitch &
+	brew install warrensbox/tap/tfswitch
 
-	tfswitch &
+	tfswitch
 
-	brew install terraform-docs &
+	brew install terraform-docs
 
-	brew install go &
+	brew install go
 
-	brew install golangci/tap/golangci-lint &
+	brew install golangci/tap/golangci-lint
 
-	go install -v github.com/ramya-rao-a/go-outline@latest &
+	go install -v github.com/ramya-rao-a/go-outline@latest
 
-	go get golang.org/x/tools/cmd/godoc &
+	go get golang.org/x/tools/cmd/godoc
 
-	brew install kafka &
+	brew install kafka
 
-	brew install --cask beekeeper-studio &
+	brew install --cask beekeeper-studio
 
-	brew install awscli &
+	brew install awscli
 
-	brew install --cask snowflake-snowsql &
+	brew install --cask snowflake-snowsql
 
-	brew install --cask cyberduck &
+	brew install --cask cyberduck
 
-	brew install --cask keybase &
+	brew install --cask keybase
 
-	brew install --cask 1password-cli &
+	brew install --cask 1password-cli
 	
-	brew install csvkit &
+	brew install csvkit
 
-	brew install chruby &
+	brew install chruby
 
-	brew install chruby ruby-install xz &
+	brew install chruby ruby-install xz
 
-	brew install node &
+	brew install node
 
 	brew install joedrago/repo/colorist
 	
 brew_install_media:
-	brew install --cask discord &
+	brew install --cask discord
 
-	brew install --cask obs &
+	brew install --cask obs
 
-	brew install --cask plex &
+	brew install --cask plex
 
-	brew install --cask vlc &
+	brew install --cask vlc
 
-	brew install --cask viber &
+	brew install --cask viber
 
-	brew install pandoc &
+	brew install pandoc
 remove_temp_dir:
 	rm -rf mkdir ~/temp_setup
