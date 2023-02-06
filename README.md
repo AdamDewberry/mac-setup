@@ -43,7 +43,7 @@ To run, navigate to your home directory:
 
 ```bash
 cd ~
-./make -i email_address=[your-email]
+/usr/bin/make -i email_address=[your-email]
 ```
 
 The flag `-i` will skip on error and continue.
