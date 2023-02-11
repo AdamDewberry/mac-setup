@@ -42,6 +42,17 @@ setup_brew:
 	sudo chown -R ${USER} /usr/local/*
 brew_install_essentials:
 	brew install --cask google-chrome && open /Applications/Google\ Chrome.app
+	
+	curl -fsSL https://github.com/dexterleng/KeyboardScroller.docs/releases/download/v1.0.2/Keyboard-Scroller-1.0.2.zip > ~/temp_setup/Keyboard-Scroller-1.0.2.zip
+	open ~/temp_setup/Keyboard-Scroller-1.0.2.zip 
+	mv ~/temp_setup/Keyboard\ Scroller.app/ /Applications/Keyboard\ Scroller.app/
+
+	curl -fsSL https://appcenter-filemanagement-distrib2ede6f06e.azureedge.net/da794613-a450-43af-810e-148a79207c1f/Homerow-0.18.zip?sv=2019-02-02&sr=c&sig=Aa5VwEUaDT6JTHWrXfGXZfwFKDpOCmLtlwA1VbCP65o%3D&se=2023-02-12T09%3A48%3A34Z&sp=r&download_origin=appcenter > ~/temp_setup/Homerow-0.18.zip
+	open ~/temp_setup/Homerow-0.18.zip
+	mv ~/temp_setup/Homerow.app/ /Applications/Homerow.app/
+	open /Applications/Homerow.app/
+
+	open /Applications/Keyboard\ Scroller.app/
 	brew install --cask spotify && open /Applications/Spotify.app
 	brew install z
 	brew install git
