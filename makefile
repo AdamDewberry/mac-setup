@@ -15,6 +15,7 @@ setup_mac_preferences:
 	defaults write com.apple.finder QuitMenuItem -bool true
 	defaults write com.apple.finder EmptyTrashSecurely -bool true
 	defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+	defaults write com.apple.LaunchServices LSQuarantine -bool false
 	defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 	defaults write com.apple.screencapture location ~/Documents/screenshots
 	defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1
