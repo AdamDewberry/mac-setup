@@ -14,6 +14,8 @@ setup_mac_preferences:
 	defaults write com.apple.Finder AppleShowAllFiles true
 	defaults write com.apple.finder QuitMenuItem -bool true
 	defaults write com.apple.finder EmptyTrashSecurely -bool true
+	defaults write com.apple.finder NewWindowTarget -string "PfLo"
+	defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 	defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 	defaults write com.apple.LaunchServices LSQuarantine -bool false
 	defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
