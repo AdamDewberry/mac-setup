@@ -167,5 +167,8 @@ brew_install_media:
 	brew install --cask viber
 
 	brew install pandoc
+
+	brew install flux
+
 remove_temp_dir:
 	rm -rf mkdir ~/temp_setup
