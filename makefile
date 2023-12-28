@@ -168,7 +168,7 @@ brew_install_media:
 
 	brew install pandoc
 
-	brew install flux
+	brew install --cask flux
 
 remove_temp_dir:
 	rm -rf mkdir ~/temp_setup
