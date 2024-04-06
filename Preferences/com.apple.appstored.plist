@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdPlatformsStatusConditionSetDate</key>
+	<date>2023-02-11T19:12:01Z</date>
+	<key>AppUsageBiomeStartDate</key>
+	<date>2023-02-11T14:34:23Z</date>
+	<key>ArcadeDeviceGUID</key>
+	<string>5CE91EC07111</string>
+	<key>ArcadeDeviceID</key>
+	<string>A6D1F44F-06B7-41A8-9B4B-309749B6D81B</string>
+	<key>ArcadeDeviceIDCreationDate</key>
+	<date>2023-02-06T10:20:32Z</date>
+	<key>ArcadePayoutDeviceID</key>
+	<string>EF41B2FB-DAE8-4530-B910-9899134DDBA8</string>
+	<key>ArcadePayoutIntervalStartDate</key>
+	<date>2023-02-11T08:30:56Z</date>
+	<key>ArcadePayoutLaunchesIntervalStartDate</key>
+	<date>2023-02-11T08:30:56Z</date>
+	<key>ArcadePayoutResetDate</key>
+	<date>2023-02-12T08:00:00Z</date>
+	<key>ArcadeSubscriptionState</key>
+	<string>Unsubscribed</string>
+	<key>ArcadeSummaryIntervalStartDate</key>
+	<date>2023-02-11T08:14:58Z</date>
+	<key>ArcadeSummaryLaunchesIntervalStartDate</key>
+	<date>2023-02-11T08:14:58Z</date>
+	<key>BadgeCount</key>
+	<integer>5</integer>
+	<key>CrossfireIntervalStartDate</key>
+	<date>2023-02-11T14:34:23Z</date>
+	<key>CrossfireLaunchesIntervalStartDate</key>
+	<date>2023-02-11T14:34:23Z</date>
+	<key>CurrentUpdateSource</key>
+	<integer>0</integer>
+	<key>LastOSBuildVersion</key>
+	<string>22A8380</string>
+	<key>LastOSInstallDate</key>
+	<date>2023-02-06T10:20:33Z</date>
+	<key>LastUpdateNotification</key>
+	<date>2023-02-06T23:33:16Z</date>
+	<key>LastUpdatesCheck</key>
+	<date>2023-02-11T04:03:00Z</date>
+	<key>LastWeeklyAnalyticsPostDate</key>
+	<date>2023-02-07T00:13:07Z</date>
+	<key>OncePerBoot</key>
+	<dict>
+		<key>fsEntitlements</key>
+		<integer>1</integer>
+	</dict>
+	<key>TargetDateArcadePostPayout</key>
+	<date>2023-02-11T20:30:56Z</date>
+	<key>TargetDateArcadePostSummary</key>
+	<date>2023-02-11T20:14:58Z</date>
+	<key>TargetDateCrossfirePost</key>
+	<date>2023-02-11T20:34:24Z</date>
+	<key>WelcomeNotificationLastAppStoreConnectionProductVersion</key>
+	<string>13.0</string>
+</dict>
+</plist>

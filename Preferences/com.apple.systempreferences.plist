@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CurrentExtensionURL</key>
+	<string>/System/Library/ExtensionKit/Extensions/AccessibilitySettingsExtension.appex</string>
+	<key>NSNavLastRootDirectory</key>
+	<string>/Applications</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{800, 448}</string>
+	<key>NSQuitAlwaysKeepsWindows</key>
+	<false/>
+	<key>NSSplitView Subview Frames main, SidebarNavigationView</key>
+	<array>
+		<string>0.000000, 0.000000, 215.000000, 625.000000, NO, NO</string>
+		<string>216.000000, 0.000000, 499.000000, 625.000000, NO, NO</string>
+	</array>
+	<key>NSWindow Frame main</key>
+	<string>24 110 715 625 0 0 1312 818 </string>
+	<key>ThirdPartyCount</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoStartSettingIsHidden</key>
+	<true/>
+	<key>NSFullScreenMenuItemEverywhere</key>
+	<false/>
+	<key>NSIsFullScreen</key>
+	<false/>
+	<key>NSWindow Frame com.spotify.client.mainwindow</key>
+	<string>0 0 1312 818 0 0 1312 818 </string>
+	<key>run_mode</key>
+	<string>clean_quit</string>
+</dict>
+</plist>

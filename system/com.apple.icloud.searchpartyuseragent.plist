@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CKPerBootTasks</key>
+	<array>
+		<string>CKAcccountInfoCacheReset</string>
+		<string>CKAccountInfoCacheReset</string>
+	</array>
+	<key>CKStartupTime</key>
+	<integer>1676142958</integer>
+	<key>CloudKitAccountInfoCache</key>
+	<dict>
+		<key>30428ef4929cf827c42069d608b7bfc1dad9d1233eebb14a144302562aabd9e0</key>
+		<data>
+		YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9i
+		amVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwYVSRu
+		dWxs1g0ODxAREhMUFRMWF11BY2NvdW50U3RhdHVzXxAkRGV2aWNlVG9EZXZp
+		Y2VFbmNyeXB0aW9uQXZhaWxhYmlsaXR5XxAcQWNjb3VudEluZm9WYWxpZGF0
+		aW9uQ291bnRlcl8QEEFjY291bnRQYXJ0aXRpb25fEBNIYXNWYWxpZENyZWRl
+		bnRpYWxzViRjbGFzcxABEAMQnQmAAtIZGhscWiRjbGFzc25hbWVYJGNsYXNz
+		ZXNdQ0tBY2NvdW50SW5mb6IbHVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkA
+		TABRAFMAVwBdAGoAeACfAL4A0QDnAO4A8ADyAPQA9QD3APwBBwEQAR4BIQAA
+		AAAAAAIBAAAAAAAAAB4AAAAAAAAAAAAAAAAAAAEq
+		</data>
+	</dict>
+	<key>FMIPStateManager.fmipState</key>
+	<false/>
+	<key>LastOSLaunchVersion</key>
+	<string>22A8380</string>
+	<key>PersistenceLayerVersion</key>
+	<integer>25</integer>
+	<key>lastLaunchBootSessionUUID</key>
+	<string>67535E1A-763C-4C34-B858-B7F276760044</string>
+	<key>lastLaunchLocale</key>
+	<string>en</string>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CachedWarrantyLastUpdatedDate</key>
+	<date>2023-02-07T18:33:21Z</date>
+	<key>CachedWarrantyLocale</key>
+	<string>en_GB</string>
+	<key>CachedWarrantyValidityDuration</key>
+	<real>28800</real>
+	<key>CachedWarrantyVersion</key>
+	<string>2</string>
+	<key>ConversionOutreachScheduledDate</key>
+	<date>2024-01-25T00:00:00Z</date>
+	<key>PostUpgradeActivityCompleted</key>
+	<true/>
+	<key>PostUpgradeOSVersionKey</key>
+	<string>13.0</string>
+	<key>ServerVersionCache</key>
+	<dict>
+		<key>HighServerVersion</key>
+		<integer>3</integer>
+		<key>LowServerVersion</key>
+		<integer>2</integer>
+	</dict>
+	<key>com.apple.ndoagent.conversionoutreach.TargetDate</key>
+	<date>2024-01-25T00:00:00Z</date>
+</dict>
+</plist>

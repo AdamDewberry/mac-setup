@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMSActivityObserverDateLastCheckedIn</key>
+	<real>1676142721.948823</real>
+	<key>AMSMetricsIdentifierDateLastSynced</key>
+	<real>1676130896.0353022</real>
+	<key>AMSMetricsIdentifierUserRecordName</key>
+	<string>_2716d64eb28117dc97fd155ac37f063b</string>
+	<key>AMSMetricsIdentifierZoneCreated</key>
+	<true/>
+	<key>AMSMetricsIdentifierZoneSubscriptionCreated</key>
+	<true/>
+	<key>CKPerBootTasks</key>
+	<array>
+		<string>CKAcccountInfoCacheReset</string>
+		<string>CKAccountInfoCacheReset</string>
+	</array>
+	<key>CKStartupTime</key>
+	<integer>1676142958</integer>
+	<key>lastSync</key>
+	<dict>
+		<key>analytics</key>
+		<date>2023-02-11T15:54:58Z</date>
+		<key>internal</key>
+		<date>2023-02-11T15:54:54Z</date>
+		<key>journeys</key>
+		<date>2023-02-11T15:54:56Z</date>
+		<key>recommendations</key>
+		<date>2023-02-11T15:54:58Z</date>
+	</dict>
+	<key>lastSyncBuildVersion</key>
+	<string>22A8380</string>
+</dict>
+</plist>

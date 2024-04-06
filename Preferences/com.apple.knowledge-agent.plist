@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CKPerBootTasks</key>
+	<array>
+		<string>CKAcccountInfoCacheReset</string>
+		<string>CKAccountInfoCacheReset</string>
+	</array>
+	<key>CKStartupTime</key>
+	<integer>1676142958</integer>
+	<key>CloudKitAccountInfoCache</key>
+	<dict>
+		<key>6fc1c455bd7aebf018e99fe5620c993378713334b8a50bcf6b1a5f23c4934d82</key>
+		<data>
+		YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9i
+		amVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwYVSRu
+		dWxs1g0ODxAREhMUFRMWF11BY2NvdW50U3RhdHVzXxAkRGV2aWNlVG9EZXZp
+		Y2VFbmNyeXB0aW9uQXZhaWxhYmlsaXR5XxAcQWNjb3VudEluZm9WYWxpZGF0
+		aW9uQ291bnRlcl8QEEFjY291bnRQYXJ0aXRpb25fEBNIYXNWYWxpZENyZWRl
+		bnRpYWxzViRjbGFzcxABEAMQnQmAAtIZGhscWiRjbGFzc25hbWVYJGNsYXNz
+		ZXNdQ0tBY2NvdW50SW5mb6IbHVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkA
+		TABRAFMAVwBdAGoAeACfAL4A0QDnAO4A8ADyAPQA9QD3APwBBwEQAR4BIQAA
+		AAAAAAIBAAAAAAAAAB4AAAAAAAAAAAAAAAAAAAEq
+		</data>
+	</dict>
+	<key>ScreenTimeSyncDisabled</key>
+	<false/>
+	<key>_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertEventsNotification:/app/webUsageActivityDate</key>
+	<date>2023-02-06T13:31:46Z</date>
+	<key>_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertEventsNotification:/notification/usageActivityDate</key>
+	<date>2023-02-11T18:47:45Z</date>
+	<key>_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertLocalEventsNotification:/app/webUsageActivityDate</key>
+	<date>2023-02-06T13:31:46Z</date>
+	<key>_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidInsertLocalEventsNotification:/notification/usageActivityDate</key>
+	<date>2023-02-11T18:47:45Z</date>
+	<key>kCDIntentDeletionContactStoreChangeHistoryToken</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVZfdG9rZW6AAakLDBEbHB0eHyZVJG51bGzS
+	DQ4PEFYkY2xhc3NfECJOU1BlcnNpc3RlbnRIaXN0b3J5VG9rZW5EaWN0aW9uYXJ5gAiA
+	AtMSEw0UFxpXTlMua2V5c1pOUy5vYmplY3RzohUWgAOABKIYGYAFgAaAB18QJDA2Rjk2
+	M0QxLThDOUQtNDFDMi04ODlELTA0OUM5QkEwOUY1MV8QJDVFNTA5RTVELUQzOEItNEU0
+	OC1BRDcwLTc1RTg0RjE5QzBGMBB7EAXSICEiI1okY2xhc3NuYW1lWCRjbGFzc2VzXxAT
+	TlNNdXRhYmxlRGljdGlvbmFyeaMiJCVcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00iAhJyhf
+	EBlfTlNQZXJzaXN0ZW50SGlzdG9yeVRva2VuoykqJV8QGV9OU1BlcnNpc3RlbnRIaXN0
+	b3J5VG9rZW5fEBhOU1BlcnNpc3RlbnRIaXN0b3J5VG9rZW4ACAARABoAJAApADIANwBJ
+	AEwAUwBVAF8AZQBqAHEAlgCYAJoAoQCpALQAtwC5ALsAvgDAAMIAxADrARIBFAEWARsB
+	JgEvAUUBSQFWAV8BZAGAAYQBoAAAAAAAAAIBAAAAAAAAACsAAAAAAAAAAAAAAAAAAAG7
+	</data>
+</dict>
+</plist>

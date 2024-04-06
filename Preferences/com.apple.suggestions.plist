@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppCanShowSiriSuggestionsBlacklist</key>
+	<array/>
+	<key>CloudKitPersistedState</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGuCwwhIigpMzQ1Oz4/QEFVJG51
+	bGzaDQ4PEBESExQVFhcXGRobHB0XHxtfEA9oYXNEZWZlcnJlZFN5bmNfEB5oYXNEZWZl
+	cnJlZFByb2Nlc3NTdGF0ZUNoYW5nZXNWJGNsYXNzXxAVc2FsdEF0b21pY1JlZmVyZW5j
+	ZUlkXxAPaGFzU3Vic2NyaXB0aW9uXxAdZXZlbnRzV2VyZVJlbW92ZWRGcm9tRXZlbnRL
+	aXRfEBxwcmltYXJ5SUNsb3VkQ2FsZW5kYXJBY2NvdW50WXN5bmNUb2tlblRzYWx0XxAP
+	c2FsdFVzZXNNYW5hdGVlgACAAIANgAOACoALgAyAAIACgApPECAE1S5NicBN2H65q8N2
+	IKKD+SS3HMxRnUIr73ke0rK2I9MPIyQlJidaUmVjb3JkTmFtZVZab25lSUSACYAEgAVf
+	EB1zYWx0X2VpcjVPMDdCaEJYcXEzK1p4K2RHdUE9PdUqKywtDy4XMDEyXxAQZGF0YWJh
+	c2VTY29wZUtleV8QEWFub255bW91c0NLVXNlcklEWW93bmVyTmFtZVhab25lTmFtZRAA
+	gACAB4AGgAhWZXZlbnRzXxAQX19kZWZhdWx0T3duZXJfX9I2Nzg5WiRjbGFzc25hbWVY
+	JGNsYXNzZXNeQ0tSZWNvcmRab25lSUSiODpYTlNPYmplY3TSNjc8PVpDS1JlY29yZElE
+	ojw6CQhfECRFQTRCQjQxOC1CQzEyLTQyQTYtQjkzQi02NTlCMkRFRUIwRjDSNjdCQ18Q
+	Hl9TR0RDbG91ZEtpdFN5bmNQZXJzaXN0ZWRTdGF0ZaJEOl8QHl9TR0RDbG91ZEtpdFN5
+	bmNQZXJzaXN0ZWRTdGF0ZQAIABEAGgAkACkAMgA3AEkATABRAFMAYgBoAH0AjwCwALcA
+	zwDhAQEBIAEqAS8BQQFDAUUBRwFJAUsBTQFPAVEBUwFVAXgBfwGKAZEBkwGVAZcBtwHC
+	AdUB6QHzAfwB/gIAAgICBAIGAg0CIAIlAjACOQJIAksCVAJZAmQCZwJoAmkCkAKVArYC
+	uQAAAAAAAAIBAAAAAAAAAEUAAAAAAAAAAAAAAAAAAALa
+	</data>
+	<key>SuggestionsAllowGeocode</key>
+	<false/>
+	<key>UserAccountsPersistedState</key>
+	<array>
+		<string>EA4BB418-BC12-42A6-B93B-659B2DEEB0F0</string>
+		<string>adam.dewberry@mesh-ai.com</string>
+	</array>
+	<key>findToShowMigrationPerformed</key>
+	<true/>
+	<key>spToLearnMigrationPerformed</key>
+	<true/>
+</dict>
+</plist>

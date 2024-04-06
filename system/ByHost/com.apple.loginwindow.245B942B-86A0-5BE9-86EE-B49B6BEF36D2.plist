@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TALAppsToRelaunchAtLogin</key>
+	<array>
+		<dict>
+			<key>BackgroundState</key>
+			<integer>0</integer>
+			<key>BundleID</key>
+			<string>com.microsoft.vscode</string>
+			<key>Hide</key>
+			<false/>
+			<key>Path</key>
+			<string>/Applications/Visual Studio Code.app</string>
+		</dict>
+		<dict>
+			<key>BackgroundState</key>
+			<integer>2</integer>
+			<key>BundleID</key>
+			<string>com.apple.terminal</string>
+			<key>Hide</key>
+			<false/>
+			<key>Path</key>
+			<string>/System/Applications/Utilities/Terminal.app</string>
+		</dict>
+		<dict>
+			<key>BackgroundState</key>
+			<integer>2</integer>
+			<key>BundleID</key>
+			<string>com.apple.systempreferences</string>
+			<key>Hide</key>
+			<false/>
+			<key>Path</key>
+			<string>/System/Applications/System Settings.app</string>
+		</dict>
+		<dict>
+			<key>BackgroundState</key>
+			<integer>2</integer>
+			<key>BundleID</key>
+			<string>com.google.chrome</string>
+			<key>Hide</key>
+			<false/>
+			<key>Path</key>
+			<string>/Applications/Google Chrome.app</string>
+		</dict>
+		<dict>
+			<key>BackgroundState</key>
+			<integer>2</integer>
+			<key>BundleID</key>
+			<string>whatsapp</string>
+			<key>Hide</key>
+			<false/>
+			<key>Path</key>
+			<string>/Applications/WhatsApp.app</string>
+		</dict>
+		<dict>
+			<key>BackgroundState</key>
+			<integer>2</integer>
+			<key>BundleID</key>
+			<string>com.apple.finder</string>
+			<key>Hide</key>
+			<false/>
+			<key>Path</key>
+			<string>/System/Library/CoreServices/Finder.app</string>
+		</dict>
+		<dict>
+			<key>BackgroundState</key>
+			<integer>3</integer>
+			<key>BundleID</key>
+			<string>com.tinyspeck.slackmacgap</string>
+			<key>Hide</key>
+			<false/>
+			<key>Path</key>
+			<string>/Applications/Slack.app</string>
+		</dict>
+		<dict>
+			<key>BackgroundState</key>
+			<integer>2</integer>
+			<key>BundleID</key>
+			<string>com.spotify.client</string>
+			<key>Hide</key>
+			<false/>
+			<key>Path</key>
+			<string>/Applications/Spotify.app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PhotoLibraries</key>
+	<array>
+		<string>/Users/adam.dewberry/Pictures/Photos Library.photoslibrary</string>
+		<string>/Users/adam.dewberry/Library/Photos/Libraries/Syndication.photoslibrary</string>
+	</array>
+	<key>PreheatAttempts</key>
+	<integer>0</integer>
+	<key>PreheatLastRun</key>
+	<date>2023-02-11T19:16:24Z</date>
+</dict>
+</plist>

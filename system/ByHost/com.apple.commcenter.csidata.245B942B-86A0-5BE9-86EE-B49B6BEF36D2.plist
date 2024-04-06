@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BootTime</key>
+	<string>0x63e7e96e</string>
+	<key>CommCenterStartsThisBoot</key>
+	<string>0x1</string>
+	<key>VoWiFiLocationEvaluated</key>
+	<string>0x1</string>
+	<key>WifiCallingLocationAuthorizationStatus</key>
+	<string>0x2</string>
+</dict>
+</plist>

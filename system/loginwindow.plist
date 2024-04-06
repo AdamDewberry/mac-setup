@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildVersionStampAsNumber</key>
+	<integer>46405504</integer>
+	<key>BuildVersionStampAsString</key>
+	<string>22A8380</string>
+	<key>SystemVersionStampAsNumber</key>
+	<integer>218103808</integer>
+	<key>SystemVersionStampAsString</key>
+	<string>13.0</string>
+</dict>
+</plist>

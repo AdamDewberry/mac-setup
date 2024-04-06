@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ICDefaultsKeyLastKnownSubscriptionStatusBaseCacheKey</key>
+	<dict>
+		<key>phoneNumber</key>
+		<string></string>
+		<key>storefrontID</key>
+		<string>143444</string>
+	</dict>
+	<key>ICDefaultsKeyLastKnownUserAgeVerificationState</key>
+	<dict>
+		<key>20988111228</key>
+		<dict>
+			<key>ICAgeVerificationStateKeyDSID</key>
+			<string>20988111228</string>
+			<key>ICAgeVerificationStateKeyStatus</key>
+			<integer>1</integer>
+			<key>ICAgeVerificationStateKeyTreatment</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>ICDefaultsKeyMediaLibraryAccessApplicationIdentifiersWithTCCAcceptanceDates</key>
+	<dict/>
+</dict>
+</plist>

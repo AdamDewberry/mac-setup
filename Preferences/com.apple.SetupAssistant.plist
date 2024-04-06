@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DidSeeAccessibility</key>
+	<true/>
+	<key>DidSeeActivationLock</key>
+	<false/>
+	<key>DidSeeAppStore</key>
+	<false/>
+	<key>DidSeeAppearanceSetup</key>
+	<true/>
+	<key>DidSeeApplePaySetup</key>
+	<true/>
+	<key>DidSeeAvatarSetup</key>
+	<false/>
+	<key>DidSeeCloudSetup</key>
+	<true/>
+	<key>DidSeePrivacy</key>
+	<true/>
+	<key>DidSeeScreenTime</key>
+	<true/>
+	<key>DidSeeSiriSetup</key>
+	<true/>
+	<key>DidSeeSyncSetup</key>
+	<true/>
+	<key>DidSeeSyncSetup2</key>
+	<true/>
+	<key>DidSeeTermsOfAddress</key>
+	<false/>
+	<key>DidSeeTouchIDSetup</key>
+	<true/>
+	<key>DidSeeiCloudLoginForStorageServices</key>
+	<true/>
+	<key>FDECSLVUUIDs</key>
+	<array>
+		<string>6D2991F6-DA6F-46CD-AE1B-455086F7B411</string>
+	</array>
+	<key>LastPrivacyBundleVersion</key>
+	<string>2</string>
+	<key>LastSeenBuddyBuildVersion</key>
+	<string>22A8380</string>
+	<key>LastSeenCloudProductVersion</key>
+	<string>13.0</string>
+	<key>LastSeenDiagnosticsProductVersion</key>
+	<string>13.0</string>
+	<key>LastSeenSiriProductVersion</key>
+	<string>13.0</string>
+	<key>LastSeenSyncProductVersion</key>
+	<string>13.0</string>
+	<key>MiniBuddyLaunchReason</key>
+	<integer>0</integer>
+	<key>MiniBuddyLaunchedPostMigration</key>
+	<false/>
+	<key>MiniBuddyShouldLaunchToResumeSetup</key>
+	<false/>
+	<key>PreviousBuildVersion</key>
+	<string>0</string>
+	<key>PreviousSystemVersion</key>
+	<string>0</string>
+	<key>SkipExpressSettingsUpdating</key>
+	<false/>
+	<key>SkipFirstLoginOptimization</key>
+	<false/>
+</dict>
+</plist>

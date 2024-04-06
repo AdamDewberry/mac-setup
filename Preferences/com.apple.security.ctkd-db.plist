@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classes</key>
+	<dict>
+		<key>com.apple.pivtoken</key>
+		<string>E8B78574-8D35-4F12-805E-4B4501178C4A</string>
+	</dict>
+</dict>
+</plist>

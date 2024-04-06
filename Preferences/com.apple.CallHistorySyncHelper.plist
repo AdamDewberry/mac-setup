@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CKPerBootTasks</key>
+	<array>
+		<string>CKAcccountInfoCacheReset</string>
+		<string>CKAccountInfoCacheReset</string>
+	</array>
+	<key>CKStartupTime</key>
+	<integer>1675676940</integer>
+	<key>CloudKitAccountInfoCache</key>
+	<dict>
+		<key>7f66e6710b3f9e1acb27c20eea4d00486952903d3ae31e9c30874418c64a98ae</key>
+		<data>
+		YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9i
+		amVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwYVSRu
+		dWxs1g0ODxAREhMUFRMWF11BY2NvdW50U3RhdHVzXxAkRGV2aWNlVG9EZXZp
+		Y2VFbmNyeXB0aW9uQXZhaWxhYmlsaXR5XxAcQWNjb3VudEluZm9WYWxpZGF0
+		aW9uQ291bnRlcl8QEEFjY291bnRQYXJ0aXRpb25fEBNIYXNWYWxpZENyZWRl
+		bnRpYWxzViRjbGFzcxABEAMQZQmAAtIZGhscWiRjbGFzc25hbWVYJGNsYXNz
+		ZXNdQ0tBY2NvdW50SW5mb6IbHVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkA
+		TABRAFMAVwBdAGoAeACfAL4A0QDnAO4A8ADyAPQA9QD3APwBBwEQAR4BIQAA
+		AAAAAAIBAAAAAAAAAB4AAAAAAAAAAAAAAAAAAAEq
+		</data>
+	</dict>
+	<key>com.apple.callhistory.cloud-storage2</key>
+	<dict>
+		<key>previousServerChangeTokenData</key>
+		<data>
+		YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9i
+		amVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwRElUk
+		bnVsbNINDg8QViRjbGFzc18QD0NoYW5nZVRva2VuRGF0YYADgAJPEC4fChAS
+		DAAAMM0dRUvxAAAAAhgBGAAiFQiajsHSts20owQQl+nK3dCetKupASgA0hMU
+		FRZaJGNsYXNzbmFtZVgkY2xhc3Nlc18QE0NLU2VydmVyQ2hhbmdlVG9rZW6i
+		FRdYTlNPYmplY3QIERokKTI3SUxRU1heY2p8foCxtsHK4OMAAAAAAAABAQAA
+		AAAAAAAYAAAAAAAAAAAAAAAAAAAA7A==
+		</data>
+		<key>transactionRecordZoneCreationDate</key>
+		<date>2023-02-06T10:45:02Z</date>
+		<key>transactionRecordZoneFetchDate</key>
+		<date>2023-02-06T10:45:02Z</date>
+		<key>transactionRecordZoneSubscriptionCreationDate</key>
+		<date>2023-02-06T10:45:02Z</date>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cloud Sync Enabled</key>
+	<true/>
+	<key>Cloud Sync Enabled Modification Date</key>
+	<date>2023-02-06T10:21:51Z</date>
+	<key>Cloud Sync User ID</key>
+	<string>_ca6efd610efc741612c625622df69302</string>
+	<key>Modification Dates</key>
+	<dict>
+		<key>Logging User Identifier</key>
+		<date>2023-02-06T10:45:03Z</date>
+		<key>Output Voice</key>
+		<date>2023-02-06T10:22:55Z</date>
+		<key>Session Language</key>
+		<date>2023-02-06T10:22:55Z</date>
+		<key>User Identifier</key>
+		<date>2023-02-06T10:45:03Z</date>
+	</dict>
+	<key>Output Voice</key>
+	<dict>
+		<key>Custom</key>
+		<true/>
+		<key>Footprint</key>
+		<integer>2</integer>
+		<key>Gender</key>
+		<integer>1</integer>
+		<key>Language</key>
+		<string>en-GB</string>
+		<key>Name</key>
+		<string>arthur</string>
+	</dict>
+	<key>Session Language</key>
+	<string>en-GB</string>
+	<key>Siri Data Sharing Opt-In Status History</key>
+	<array>
+		<dict>
+			<key>Build Version</key>
+			<string>22A8380</string>
+			<key>Date</key>
+			<date>2023-02-06T10:22:53Z</date>
+			<key>New Opt-In Status</key>
+			<string>optedOut</string>
+			<key>Previous Opt-In Status</key>
+			<string>unspecified</string>
+			<key>Product Version</key>
+			<string>13.0</string>
+			<key>Reason</key>
+			<string>Initial setup</string>
+			<key>Schema Version</key>
+			<string>1.0</string>
+			<key>Source</key>
+			<string>buddy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

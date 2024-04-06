@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AirDropRandomHashUUIDKey1</key>
+	<string>DE50F554-C3A6-4900-B7C3-60C9DE6B1EB4</string>
+	<key>AirDropRandomHashUUIDKey2</key>
+	<string>D42B1C17-9AF4-4880-892E-7644B2435F01</string>
+	<key>AirDropRandomHashUUIDKey3</key>
+	<string>5DE480CA-8B6E-49D7-BDD4-9DA12A901243</string>
+	<key>AutoUnlockPresentedBluetoothError</key>
+	<false/>
+	<key>AutoUnlockPresentedWiFiError</key>
+	<false/>
+	<key>HashManager-LastConsumedHistoryTokenKey</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVZfdG9rZW6AAakLDBEbHB0eHyZVJG51bGzS
+	DQ4PEFYkY2xhc3NfECJOU1BlcnNpc3RlbnRIaXN0b3J5VG9rZW5EaWN0aW9uYXJ5gAiA
+	AtMSEw0UFxpXTlMua2V5c1pOUy5vYmplY3RzohUWgAOABKIYGYAFgAaAB18QJDA2Rjk2
+	M0QxLThDOUQtNDFDMi04ODlELTA0OUM5QkEwOUY1MV8QJDVFNTA5RTVELUQzOEItNEU0
+	OC1BRDcwLTc1RTg0RjE5QzBGMBB7EAXSICEiI1okY2xhc3NuYW1lWCRjbGFzc2VzXxAT
+	TlNNdXRhYmxlRGljdGlvbmFyeaMiJCVcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00iAhJyhf
+	EBlfTlNQZXJzaXN0ZW50SGlzdG9yeVRva2VuoykqJV8QGV9OU1BlcnNpc3RlbnRIaXN0
+	b3J5VG9rZW5fEBhOU1BlcnNpc3RlbnRIaXN0b3J5VG9rZW4ACAARABoAJAApADIANwBJ
+	AEwAUwBVAF8AZQBqAHEAlgCYAJoAoQCpALQAtwC5ALsAvgDAAMIAxADrARIBFAEWARsB
+	JgEvAUUBSQFWAV8BZAGAAYQBoAAAAAAAAAIBAAAAAAAAACsAAAAAAAAAAAAAAAAAAAG7
+	</data>
+	<key>HashManager-LastRebuiltDateKey</key>
+	<date>2023-02-11T19:16:34Z</date>
+	<key>HashManager-LastUpdatedDateKey</key>
+	<date>2023-02-11T19:16:34Z</date>
+	<key>HashManager-StoredDatabaseVersionKey</key>
+	<integer>3</integer>
+	<key>OneTimeAirDropReset2</key>
+	<true/>
+</dict>
+</plist>

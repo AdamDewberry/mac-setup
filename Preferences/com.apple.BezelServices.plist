@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BatteryHistory</key>
+	<dict>
+		<key>1c-57-dc-8d-99-35</key>
+		<integer>45</integer>
+	</dict>
+	<key>TransportElapsedSeconds</key>
+	<dict>
+		<key>1c-57-dc-8d-99-35</key>
+		<dict>
+			<key>SecondsBluetooth</key>
+			<real>35113.365129944999</real>
+			<key>SecondsUSB</key>
+			<real>0.0</real>
+		</dict>
+	</dict>
+	<key>afActionHistory</key>
+	<dict/>
+</dict>
+</plist>

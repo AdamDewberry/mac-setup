@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>554 510 620 398 0 0 1728 1079 </string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
+	<key>SULastCheckTime</key>
+	<date>2023-02-10T23:47:24Z</date>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>2362432691</integer>
+	<key>scroll-down-hotkey</key>
+	<string>⌃⇧↓</string>
+	<key>scroll-up-hotkey</key>
+	<string>⌃⇧↑</string>
+	<key>scrollPxPerMs</key>
+	<real>3</real>
+</dict>
+</plist>

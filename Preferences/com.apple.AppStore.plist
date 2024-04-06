@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ASAcknowledgedOnboardingVersion</key>
+	<integer>5</integer>
+	<key>AVDesktopPlaybackControlsControllerShowsDurationInsteadOfTimeRemainingDefaultsKey</key>
+	<true/>
+	<key>AutoPlayVideoSetting</key>
+	<string>on</string>
+	<key>MetricsSamplingLotteryWindowStart_pageRender</key>
+	<real>697373192.86790502</real>
+	<key>NSWindow Frame AppStoreMainWindow</key>
+	<string>66 76 1180 724 0 0 1312 818 </string>
+	<key>UserSetAutoPlayVideoSetting</key>
+	<false/>
+	<key>__uniquePageGroupID-1.WebKit2DeveloperExtrasEnabled</key>
+	<true/>
+	<key>__uniquePageGroupID-1.WebKit2ShowsToolTipOverTruncatedText</key>
+	<true/>
+	<key>__uniquePageGroupID-1.WebKit2SuppressesIncrementalRendering</key>
+	<true/>
+	<key>__uniquePageGroupID-1.WebKit2UserInterfaceDirectionPolicy</key>
+	<integer>1</integer>
+	<key>__uniquePageGroupID-13.WebKit2DeveloperExtrasEnabled</key>
+	<true/>
+	<key>__uniquePageGroupID-13.WebKit2ShowsToolTipOverTruncatedText</key>
+	<true/>
+	<key>__uniquePageGroupID-13.WebKit2SuppressesIncrementalRendering</key>
+	<true/>
+	<key>__uniquePageGroupID-13.WebKit2UserInterfaceDirectionPolicy</key>
+	<integer>1</integer>
+	<key>kAOSUIProfilePictureCropRect</key>
+	<string>{{0, 0}, {0, 0}}</string>
+	<key>lastBootstrapDate</key>
+	<real>697835521.67635202</real>
+	<key>lastBootstrapTimeZone</key>
+	<string>Europe/London</string>
+	<key>mostRecentTabIdentifier</key>
+	<string>updates</string>
+</dict>
+</plist>

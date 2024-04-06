@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DidMigrateDownloadFolderToSandbox</key>
+	<true/>
+	<key>DidMigrateResourcesToSandbox</key>
+	<true/>
+	<key>Homepage</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwTFFUkbnVsbNMNDg8QERJX
+	TlMuYmFzZVYkY2xhc3NbTlMucmVsYXRpdmWAAIADgAJfECJodHRwOi8vd3d3LmFwcGxl
+	LmNvbS91ay9zdGFydHBhZ2Uv0hUWFxhaJGNsYXNzbmFtZVgkY2xhc3Nlc1VOU1VSTKIX
+	GVhOU09iamVjdAgRGiQpMjdJTFFTWF5lbXSAgoSGq7C7xMrNAAAAAAAAAQEAAAAAAAAA
+	GgAAAAAAAAAAAAAAAAAAANY=
+	</data>
+	<key>ShowDevelopMenu</key>
+	<false/>
+</dict>
+</plist>

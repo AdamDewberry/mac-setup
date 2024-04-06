@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MetadataSyncState</key>
+	<dict>
+		<key>AttemptCount</key>
+		<integer>0</integer>
+		<key>BuildVersion</key>
+		<string>Version 13.0 (Build 22A8380)</string>
+		<key>Date</key>
+		<date>2023-02-11T09:56:26Z</date>
+		<key>Status</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>

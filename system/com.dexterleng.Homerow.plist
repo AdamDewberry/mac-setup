@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SEGBuildKeyV2</key>
+	<string>17</string>
+	<key>SEGVersionKey</key>
+	<string>0.17</string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
+	<key>SULastCheckTime</key>
+	<date>2023-02-10T23:47:25Z</date>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>759594635</integer>
+	<key>activation-count</key>
+	<integer>28</integer>
+	<key>is-experimental-support-enabled</key>
+	<true/>
+	<key>launch-at-login</key>
+	<true/>
+</dict>
+</plist>

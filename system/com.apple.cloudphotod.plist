@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CKPerBootTasks</key>
+	<array>
+		<string>CKAcccountInfoCacheReset</string>
+		<string>CKAccountInfoCacheReset</string>
+	</array>
+	<key>CKStartupTime</key>
+	<integer>1676142958</integer>
+	<key>CPLEngineParameters-SystemLibrary</key>
+	<dict>
+		<key>clientLibraryBasePath</key>
+		<string>/Users/adam.dewberry/Pictures/Photos Library.photoslibrary/resources/cpl/cloudsync.noindex</string>
+		<key>cloudLibraryResourceStoragePath</key>
+		<string>/Users/adam.dewberry/Pictures/Photos Library.photoslibrary/resources/cpl/cloudsync.noindex/storage</string>
+		<key>cloudLibraryStateStoragePath</key>
+		<string>/Users/adam.dewberry/Pictures/Photos Library.photoslibrary/resources/cpl/cloudsync.noindex/storage</string>
+		<key>libraryIdentifier</key>
+		<string>SystemLibrary</string>
+		<key>options</key>
+		<integer>1037</integer>
+	</dict>
+	<key>CloudKitAccountInfoCache</key>
+	<dict>
+		<key>1479ceee53bad7d41738349dad56f74f81f48b09c1d09b327a8dff00bbea22a7</key>
+		<data>
+		YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9i
+		amVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwYVSRu
+		dWxs1g0ODxAREhMUFRMWF11BY2NvdW50U3RhdHVzXxAkRGV2aWNlVG9EZXZp
+		Y2VFbmNyeXB0aW9uQXZhaWxhYmlsaXR5XxAcQWNjb3VudEluZm9WYWxpZGF0
+		aW9uQ291bnRlcl8QEEFjY291bnRQYXJ0aXRpb25fEBNIYXNWYWxpZENyZWRl
+		bnRpYWxzViRjbGFzcxABEAMQnQmAAtIZGhscWiRjbGFzc25hbWVYJGNsYXNz
+		ZXNdQ0tBY2NvdW50SW5mb6IbHVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkA
+		TABRAFMAVwBdAGoAeACfAL4A0QDnAO4A8ADyAPQA9QD3APwBBwEQAR4BIQAA
+		AAAAAAIBAAAAAAAAAB4AAAAAAAAAAAAAAAAAAAEq
+		</data>
+		<key>e68505557b5f62943bb6f63fd988eb8b0dce07bbfb4bbd85b55993e720ed1819</key>
+		<data>
+		YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9i
+		amVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwYVSRu
+		dWxs1g0ODxAREhMUFRMWF11BY2NvdW50U3RhdHVzXxAkRGV2aWNlVG9EZXZp
+		Y2VFbmNyeXB0aW9uQXZhaWxhYmlsaXR5XxAcQWNjb3VudEluZm9WYWxpZGF0
+		aW9uQ291bnRlcl8QEEFjY291bnRQYXJ0aXRpb25fEBNIYXNWYWxpZENyZWRl
+		bnRpYWxzViRjbGFzcxABEAMQnQmAAtIZGhscWiRjbGFzc25hbWVYJGNsYXNz
+		ZXNdQ0tBY2NvdW50SW5mb6IbHVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkA
+		TABRAFMAVwBdAGoAeACfAL4A0QDnAO4A8ADyAPQA9QD3APwBBwEQAR4BIQAA
+		AAAAAAIBAAAAAAAAAB4AAAAAAAAAAAAAAAAAAAEq
+		</data>
+	</dict>
+	<key>_CPLUpgradeHistory-SystemLibrary</key>
+	<dict>
+		<key>lastCPLUpgradeDate</key>
+		<date>2023-02-06T10:23:26Z</date>
+		<key>lastOSBuildUpgradeDate</key>
+		<date>2023-02-06T10:23:26Z</date>
+		<key>lastSeenCPLVersion</key>
+		<string>CloudPhotoLibrary-511.0.180-GOLDILOCKS</string>
+		<key>lastSeenOSBuildVersion</key>
+		<string>22A8380</string>
+	</dict>
+</dict>
+</plist>

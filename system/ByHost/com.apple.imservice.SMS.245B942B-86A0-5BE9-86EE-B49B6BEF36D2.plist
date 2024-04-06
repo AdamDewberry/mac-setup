@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Accounts</key>
+	<dict>
+		<key>E5A8D787-D366-49B6-88FF-78EBE9A69E42</key>
+		<dict>
+			<key>LoginAs</key>
+			<string>E:</string>
+			<key>canRelayMMS</key>
+			<false/>
+			<key>canRelaySMS</key>
+			<false/>
+			<key>isSMSRelayCapable</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>ActiveAccounts</key>
+	<array>
+		<string>E5A8D787-D366-49B6-88FF-78EBE9A69E42</string>
+	</array>
+	<key>OnlineAccounts</key>
+	<array>
+		<string>E5A8D787-D366-49B6-88FF-78EBE9A69E42</string>
+	</array>
+	<key>Status</key>
+	<dict/>
+</dict>
+</plist>

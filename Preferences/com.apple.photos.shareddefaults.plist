@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CPLDefaultDownload</key>
+	<string>Default</string>
+	<key>DiskSpaceWasLow</key>
+	<false/>
+	<key>downloadAndKeepOriginals</key>
+	<false/>
+	<key>iCPL-enable-reason</key>
+	<integer>0</integer>
+	<key>iCloudPhotoLibraryHasBeenEnabledAccountIdentifiers</key>
+	<array>
+		<string>A51A17F6-6745-4AA3-81B1-94BDA121ED30</string>
+	</array>
+	<key>iCloudPhotoLibraryLastResetWelcomePromptDBVersion</key>
+	<integer>12200</integer>
+	<key>lastHighlightTitlesUpdateDate</key>
+	<date>2023-02-06T12:40:13Z</date>
+</dict>
+</plist>
