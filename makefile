@@ -34,10 +34,9 @@ install_xcode:
 temp_dirs:
 	mkdir ~/temp_setup || echo "dir temp_setup exists"
 remap_keys:
-	mkdir ${$HOME}/Library/LaunchAgents/ || echo "LaunchAgents already exists"
-	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/remap-keys.xml" > ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
-	chmod 700 ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
-	sudo launchctl bootstrap gui/501 ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
+	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/remap-keys.xml" | sudo tee -a /Library/LaunchDaemons/local.hidutilKeyMapping.plist
+	chmod 700 /Library/LaunchDaemons/local.hidutilKeyMapping.plist
+	sudo launchctl load /Library/LaunchDaemons/local.hidutilKeyMapping.plist
 setup_brew:
 	curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > ~/temp_setup/Homebrew_install.sh
 	chmod 700 ~/temp_setup/Homebrew_install.sh
