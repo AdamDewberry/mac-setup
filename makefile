@@ -14,7 +14,10 @@ setup_mac_preferences:
 	defaults write com.apple.Finder AppleShowAllFiles true
 	defaults write com.apple.finder QuitMenuItem -bool true
 	defaults write com.apple.finder EmptyTrashSecurely -bool true
+	defaults write com.apple.finder NewWindowTarget -string "PfLo"
+	defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 	defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+	defaults write com.apple.LaunchServices LSQuarantine -bool false
 	defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 	defaults write com.apple.screencapture location ~/Documents/screenshots
 	defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1
@@ -31,10 +34,9 @@ install_xcode:
 temp_dirs:
 	mkdir ~/temp_setup || echo "dir temp_setup exists"
 remap_keys:
-	mkdir ${$HOME}/Library/LaunchAgents/ || echo "LaunchAgents already exists"
-	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/remap-keys.xml" > ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
-	chmod 700 ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
-	sudo launchctl bootstrap gui/501 ~/Library/LaunchAgents/local.hidutilKeyMapping.plist
+	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/remap-keys.xml" | sudo tee -a /Library/LaunchDaemons/local.hidutilKeyMapping.plist
+	sudo chmod 700 /Library/LaunchDaemons/local.hidutilKeyMapping.plist
+	sudo launchctl load /Library/LaunchDaemons/local.hidutilKeyMapping.plist
 setup_brew:
 	curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > ~/temp_setup/Homebrew_install.sh
 	chmod 700 ~/temp_setup/Homebrew_install.sh
@@ -175,5 +177,8 @@ brew_install_media:
 	brew install --cask viber
 
 	brew install pandoc
+
+	brew install --cask flux
+
 remove_temp_dir:
 	rm -rf mkdir ~/temp_setup
