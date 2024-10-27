@@ -3,6 +3,9 @@ setup_mac_preferences:
 	mkdir ~/Documents/screenshots || echo "dir screenshots exists"
 	sudo networksetup -ordernetworkservices "USB 10/100/1000 LAN" "Thunderbolt Bridge" "Wi-Fi"
 	sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+	
+	# deactivate auto rearrange
+	defaults write com.apple.dock "mru-spaces" 
 	defaults -currentHost write com.apple.controlcenter.plist Bluetooth -int 18
 	defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 	defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
@@ -25,6 +28,22 @@ setup_mac_preferences:
 	defaults write -g com.apple.swipescrolldirection -bool false
 	defaults write com.apple.terminal FocusFollowsMouse -bool true
 	defaults write org.x.X11 wm_ffm -bool true
+	
+	# show accent menu when long-pressing key
+	defaults write -g ApplePressAndHoldEnabled -bool true
+	
+	# reveal IP address, hostname, OS version, etc. when clicking the clock in the login window
+	sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
+	# Show the ~/Library folder
+	chflags nohidden ~/Library
+
+	# Minimize windows into their application’s icon
+	defaults write com.apple.dock minimize-to-application -bool true
+
+	# Only use UTF-8 in Terminal.app
+	defaults write com.apple.terminal StringEncodings -array 4
+
 	killall Dock
 	killall Finder
 	killall Mail
