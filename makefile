@@ -1,7 +1,7 @@
 all: setup_mac_preferences install_xcode temp_dirs remap_keys setup_brew brew_install_essentials set_vars ssh_gpg_keys git_config zsh brew_install_collaboration brew_install_tools brew_install_media remove_temp_dir
 setup_mac_preferences:
 	mkdir ~/Documents/screenshots || echo "dir screenshots exists"
-	networksetup -ordernetworkservices  "Bluetooth PAN"  "Thunderbolt Bridge"  "Wi-Fi"
+	sudo networksetup -ordernetworkservices "USB 10/100/1000 LAN" "Thunderbolt Bridge" "Wi-Fi"
 	sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 	defaults -currentHost write com.apple.controlcenter.plist Bluetooth -int 18
 	defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
