@@ -35,8 +35,10 @@ temp_dirs:
 	mkdir ~/temp_setup || echo "dir temp_setup exists"
 remap_keys:
 	curl "https://raw.githubusercontent.com/AdamDewberry/mac-setup/main/remap-keys.xml" | sudo tee -a /Library/LaunchDaemons/local.hidutilKeyMapping.plist
+	sudo plutil -lint  /Library/LaunchDaemons/local.hidutilKeyMapping.plist
 	sudo chmod 700 /Library/LaunchDaemons/local.hidutilKeyMapping.plist
-	sudo launchctl load /Library/LaunchDaemons/local.hidutilKeyMapping.plist
+	sudo launchctl bootstrap gui/501 /Library/LaunchDaemons/local.hidutilKeyMapping.plist
+	sudo launchctl load -w /Library/LaunchDaemons/local.hidutilKeyMapping.plist
 setup_brew:
 	curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > ~/temp_setup/Homebrew_install.sh
 	chmod 700 ~/temp_setup/Homebrew_install.sh
