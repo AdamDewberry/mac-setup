@@ -98,9 +98,11 @@ ssh_gpg_keys:
 	echo "pinentry-program $(which pinentry-mac)" > ~/.gnupg/gpg-agent.conf
 	killall gpg-agent
 	pkill -9 gpg-agent
+	gpgconf --launch gpg-agent
 	echo "test" | gpg --clearsign 
 	ssh-keygen -t ed25519 -C "${email_address}"
-	ssh-add -K ~/.ssh/id_ed25519
+	ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+	echo "Host *\n  UseKeychain yes\n  AddKeysToAgent yes\n  IdentityFile ~/.ssh/id_ed25519" > ~/.ssh/config
 git_config:	
 	git config --global core.editor "code --wait"
 	git config --global core.user ${USER}  
