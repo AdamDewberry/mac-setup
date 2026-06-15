@@ -187,6 +187,8 @@ brew_install_tools:
 	brew install node
 
 	brew install joedrago/repo/colorist
+
+	brew install typos-cli
 	
 brew_install_media:
 	brew install --cask discord
