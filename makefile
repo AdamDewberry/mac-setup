@@ -44,6 +44,12 @@ setup_mac_preferences:
 	# Only use UTF-8 in Terminal.app
 	defaults write com.apple.terminal StringEncodings -array 4
 
+	# stop sleeping when lid is closed
+	sudo pmset -a disablesleep 1
+
+	#disable startup sound
+	sudo nvram StartupMute=%01
+
 	killall Dock
 	killall Finder
 	killall Mail
